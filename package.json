@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "good-bugsnag",
+  "description": "Hapi Good plugin to send errors to Bugsnag error reporting service.",
+  "main": "lib/index.js",
+  "repository": "blissbooker/good-bugsnag",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "bugsnag",
+    "error reporting",
+    "errors",
+    "good",
+    "good-plugin",
+    "hapi",
+    "hapi-plugin",
+    "log monitoring",
+    "plugin"
+  ],
+  "scripts": {
+
+  },
+  "dependencies": {
+    "bugsnag": "^1.6.5",
+    "good-squeeze": "^2.1.0",
+    "hoek": "^2.14.0",
+    "lodash": "^3.10.1"
+  }
+}
